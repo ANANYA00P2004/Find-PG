@@ -3,7 +3,7 @@
     padding-top: 1%;
     padding-left: 1%;
     padding-right: 1%;
-    background-color: rgb(119, 181, 235);
+    background-color: rgb(40, 137, 223);
 }
 .navbar{
     display: flex;
@@ -29,8 +29,13 @@
     height:100px;
 }
 .logo{
-    width:950px;
-    
+    width:350px; 
+}
+.head{
+    width:39%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: xx-large;
+    font-style:bold;
 }
 .photo img{
     border-radius:50%;
@@ -47,43 +52,35 @@
     padding-right: 30px;
 }
 .sidebar{
+    width:20%;
     background-color: aliceblue;
-    width:200px;
+    
+    
     border-radius: 20px;
-    height:75vh;
+    min-height:100vh;
     background: url(../../images/newback.jpeg);
     background-size: cover;
+
     
 }
-.button1 {
-    background: black;
-    color: white;
-    
 
-
-    border: none;
-    margin:30px;
-    padding: 11px 11px 11px 11px;
-
-    border-radius: 20px;
-    text-decoration: none;
-    width:90px;
-   
-    
-    
-   
-}
 .subcontainer{
     display: flex;
     flex-direction: row;
+    gap: 30px;
+    width:100%;
+    
+    justify-content: center;
 }
 .cardsection{
-    width:700px;
-    margin-left: 20px;
-    height:75vh;
+    
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
     background-image: url(../../images/newback.jpeg);
     background-size: cover;
-    margin-right: 20px;
+    
     border-radius: 20px;
     text-align: center;
     
@@ -95,40 +92,57 @@
     
     
     border: none;
-    margin:30px;
-    padding: 15px 15px 15px 15px;
+    margin:70px;
+    padding: 15px 40px;
     
     border-radius: 20px;
     text-decoration: none;
-    width:100px;
+    
+}
+.button1  {
+    background: none;
+    color: white;
+    border: none;
+    margin:30px;
+    padding: 10px 40px;
+    border-radius: 20px;
+    text-decoration: none;  
 }
 .button1 a{
     text-decoration: none;
     color: white;
-    padding: 10px 10px 10px 10px;
+    padding: 15px 40px;
+    border-radius: 20px;
+    background-color: black;
+    border:none;
+
 }
 
 
 
 .button1 a:hover{
-    background: black;
-        color: white;
+    background:none;
+        color:black;
+        border: 2px solid black;
     
     }
     .button2 a:hover{
+        background:none;
+        color:black;
+        border: 2px solid black;
         
-        background: black;
-        color: white;
         
         }
     
     .rightbar{
-        height:75vh;
-        background-color: aliceblue;
-        margin-left: 10px;
+        min-height:100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         border-radius: 20px;
-        margin-right: 10px;
-        width:450px;
+        
+
+        width:25%;
         background: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
         background-size: cover;
     }
@@ -136,47 +150,17 @@
         margin-right: 100px;
         padding-left: 10px;
         text-align: center;
+        display: flex;
+        flex-direction: column;
     
     }
-    .title{
-        padding-left: 90px;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-weight: 750;
-        font-size: xx-large;
-        
-    }
+    
     .input_box{
         margin-left: 30px;
     }
-    form .button{
-        height: 45px;
-        margin-left: 105px;
-        
-      }
-      form .button input{
-       height: 100%;
-       width: 50%;
-       border-radius: 10px;
-       border-image: auto;
-       background-color: black;
-       color:white;
-       font-size: 18px;
-       font-weight: 500;
-       letter-spacing: 1px;
-       cursor: pointer;
-       transition: all 0.3s ease;
-       
-     }
-     form .user-details .input-box{
-        margin-bottom: 15px;
-        width: calc(100% / 2 - 20px);
-      }
-    form .input-box span.details{
-        display: block;
-        font-weight: 500;
-        margin-bottom: 5px;
-        
-      }
+    
+      
+      
       .card1{
         display: flex;
         flex-direction: row;
@@ -187,7 +171,7 @@
         height:145px;
     }
     .card1{
-        width:600px;
+        width:90%;
         height:150px;
         background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
         margin:10px 20px 10px 20px;
@@ -198,7 +182,7 @@
     .card2{
         display: flex;
         flex-direction: row;
-        width:600px;
+        width:90%;
         height:150px;
         background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
         margin:10px 20px 10px 20px;
@@ -207,6 +191,164 @@
     .facilities{
         padding-left: 30px;
     }
-
+    .card3{
+        display: flex;
+        flex-direction: row;
+        width:90%;
+        height:150px;
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        margin:10px 20px 10px 20px;
+        border-radius: 20px;
+    }
+    .addpg {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        margin: 20px;
+      
+      
+      }
+      
+      .addpg h2 {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      
+      
+      .addpg input
+       {
+        width: 90%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        margin-top: 6px;
+        
+      }
+      
+      
+      .addpg textarea {
+        height: 30%;
+      }
+      
+      .addpg button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      .addpg button:hover {
+        background-color: #45a049;
+      }
+      
+      .addpg button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+      }
+      .cardsection{
+        display: flex;
+      }
+      .pic{
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        background-size: cover;
+        border-radius: 20px;
+      }
+      .card4{
+        display: flex;
+        flex-direction: row;
+        width:90%;
+        height:150px;
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        margin:10px 20px 10px 20px;
+        border-radius: 20px;
+    }
+    .card5{
+        display: flex;
+        flex-direction: row;
+        width:90%;
+        height:150px;
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        margin:10px 20px 10px 20px;
+        border-radius: 20px;
+    }
+    .card6{
+        display: flex;
+        flex-direction: row;
+        width:90%;
+        height:150px;
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        margin:10px 20px 10px 20px;
+        border-radius: 20px;
+    }
+    .card7{
+        display: flex;
+        flex-direction: row;
+        width:90%;
+        height:150px;
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        margin:10px 20px 10px 20px;
+        border-radius: 20px;
+    }
+    .card8{
+        display: flex;
+        flex-direction: row;
+        width:90%;
+        height:150px;
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        margin:10px 20px 10px 20px;
+        border-radius: 20px;
+    }
+    .card9{
+        display: flex;
+        flex-direction: row;
+        width:90%;
+        height:150px;
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        margin:10px 20px 10px 20px;
+        border-radius: 20px;
+    }
+    .card10{
+        display: flex;
+        flex-direction: row;
+        width:90%;
+        height:150px;
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        margin:10px 20px 10px 20px;
+        border-radius: 20px;
+    }
+    .card11{
+        display: flex;
+        flex-direction: row;
+        width:90%;
+        height:150px;
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        margin:10px 20px 10px 20px;
+        border-radius: 20px;
+    }
+    .card12{
+        display: flex;
+        flex-direction: row;
+        width:90%;
+        height:150px;
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        margin:10px 20px 10px 20px;
+        border-radius: 20px;
+    }
+    .card13{
+        display: flex;
+        flex-direction: row;
+        width:90%;
+        height:150px;
+        background-image: url(https://images.pexels.com/photos/7130469/pexels-photo-7130469.jpeg?auto=compress&cs=tinysrgb&w=600);
+        margin:10px 20px 10px 20px;
+        border-radius: 20px;
+    }
+     
         
     

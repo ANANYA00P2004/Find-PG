@@ -4,6 +4,7 @@ import { GoogleAuthProvider } from "firebase/auth";
 import {app} from "../../firebase";
 import { getAuth, signInWithPopup } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
+import home1 from '../../images/home1.jpeg'
 
 export default function Login(){ 
 
@@ -38,13 +39,19 @@ signInWithPopup(auth, provider)
 
   return (
     <div className="login">
+       
     <div className="login-cont">
+   
+
       <div className="login-head">
+       
+        
         <h1>Welcome To Find PG</h1>
         <p>
           Find your perfect PG in seconds with Find PG <br></br>The ultimate
           time-saving app for locating nearby PG!
         </p>
+        
        
       </div>
       <div className="login-button">
@@ -57,6 +64,10 @@ signInWithPopup(auth, provider)
         </button>
       </div>
     </div>
+    <div className="newpic">
+        <img src={home1} alt=""></img>
+        </div>
+
   </div>
 );
   }

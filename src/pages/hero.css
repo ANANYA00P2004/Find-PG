@@ -43,6 +43,7 @@
     min-height: 100vh;
     
     
+    
 }
 .nav{
     width: 100%;
@@ -125,7 +126,8 @@
 }
 body{
   background:url(../images/newback.jpeg);
-  background-size: cover;
+    background-size: cover;
+
 }
 
 
