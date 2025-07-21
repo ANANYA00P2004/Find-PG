@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 🏡 Find-PG App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A web application built with **React** and **Firebase** to help users find and manage PG/hostel accommodations easily. Users can register or log in, add their PG/hostel details, and browse listings based on preferences.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🚀 Features
 
-### `npm start`
+- 🔐 **Authentication** (using Firebase Auth)
+- 🏠 **Add Your PG/Hostel** – Users can list their PG/hostel details
+- 🔍 **Search PGs/Hostels** – Users can find PGs by location and amenities
+- 📄 **View Details** – View property info like rent, availability, contact, and more
+- 👤 **User Dashboard** – View and manage user-added properties
+- ☁️ **Firebase Integration** – Real-time database & authentication
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+| Technology | Description |
+|------------|-------------|
+| **React.js** | Frontend Framework |
+| **Firebase** | Backend as a Service (Auth, Firestore, Hosting) |
+| **HTML/CSS** | UI Styling |
+| **JavaScript** | Application Logic |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 📸 Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> Add your screenshots here  
+> ![Photo from ANANYA P](https://github.com/user-attachments/assets/6ada9630-f155-4e28-8a15-86b36c951be1)
+  
+> ![Photo from ANANYA P (1)](https://github.com/user-attachments/assets/103c2f4f-83ab-44b4-92ea-87521f1b5677)
+> ![Photo from ANANYA P (2)](https://github.com/user-attachments/assets/514db482-c872-4d9e-b596-49de0e0e0a98)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🧑‍💻 How to Run Locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 1. Clone the Repository
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/yourusername/find-pg-app.git
+cd find-pg-app
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 2. Install Dependencies
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install
+```
 
-## Learn More
+### 3. Firebase Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Create a Firebase project at [Firebase Console](https://console.firebase.google.com)
+- Enable **Authentication** (Email/Password or Google)
+- Create a **Firestore Database**
+- Get your Firebase config from `Project Settings` and add it to your project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 4. Start the App
 
-### Code Splitting
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The app will run on [http://localhost:3000](http://localhost:3000)
 
-### Analyzing the Bundle Size
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📁 Project Structure
 
-### Making a Progressive Web App
+```
+find-pg-app/
+│
+├── public/
+├── src/
+│   ├── components/       # Reusable components
+│   ├── pages/            # Page components (Dashboard, Login, etc.)
+│   ├── firebase.js       # Firebase configuration
+│   ├── App.js
+│   └── index.js
+├── .env
+├── package.json
+└── README.md
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## ✅ Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- 🗺️ Map integration to view PGs
+- ⭐ Rating and Reviews system
+- 📱 Mobile responsiveness
+- 📊 Admin dashboard to monitor listings
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 💡 Inspiration
 
-### `npm run build` fails to minify
+Finding PGs and hostels can be difficult and unorganized. This app aims to centralize listings and make it easier for students and working individuals to find suitable accommodations.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open issues or submit pull requests.
+
+---
+
